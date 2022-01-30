@@ -1,0 +1,316 @@
+/* 
+Tempalte Name: SAWA MEDIA
+Author : Md Mehedi
+AuthorURL: https://www.creativeitinstitute.com
+version: 1.0.99
+
+table of content
+------------------------
+01/ header
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+  padding: 0;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+/* header part css here */
+#top-header {
+  background-color: white;
+  
+}
+.main-header{
+  box-shadow: -25px 1px 54px 8px rgba(204, 204, 204, 0.88);
+  -webkit-box-shadow: -25px 1px 54px 8px rgba(204, 204, 204, 0.88);
+  -moz-box-shadow: -25px 1px 54px 8px rgba(204, 204, 204, 0.88);
+  z-index: 2000;
+}
+.logo {
+  margin: 30px 0 20px 30px;
+}
+#mynav ul li.registation{
+    margin-right: 90px;
+    padding-top: 20px;
+}
+#mynav ul li a{
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #333;
+    position: relative;
+}
+#mynav ul li.contact a,
+#mynav ul li.lang a{
+    font-weight: 400;
+}
+#mynav ul li.lang a span{
+    color: #999;
+}
+.signin::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 40px;
+    background-color: #333;
+    top: 0px;
+    right: -2px;
+}
+#mynav ul li.contact a{
+    padding: 10px 35px;
+    line-height: 20px;
+   background-color: #333;
+    color: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-top: 20px;
+}
+#mynav ul li.vector{
+  padding: 20px 20px 0px 20px;
+  position: relative;
+}
+#mynav ul li.vector::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 3px;
+  height: 60px;
+  background-color: #333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.menu-fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 2000;
+  box-shadow: -25px 1px 54px 8px rgba(204, 204, 204, 0.88);
+  -webkit-box-shadow: -25px 1px 54px 8px rgba(204, 204, 204, 0.88);
+  -moz-box-shadow: -25px 1px 54px 8px rgba(204, 204, 204, 0.88);
+  transition:.3s ;
+  -webkit-transition:.3s ;
+ 
+}
+
+/* left slide start */
+
+#left-slide{
+  position: fixed;
+  left: 0;
+  top: 144px;
+  width: 12%;
+  background: #ff6633;
+ padding-bottom: 20%;
+  z-index: 10;
+  margin-bottom: 50%;
+}
+#left-slide ul{
+ display: block;
+}
+#left-slide ul li.active, 
+#left-slide ul li{
+  padding: 20px  10px 30px 20px;
+  position: relative;
+  text-align: center;
+}
+#left-slide ul li:last-child::after{
+  display: none;
+}
+
+#left-slide ul li.active::before{
+  content: '';
+  position: absolute;
+  right: -10%;
+  top: 51%;
+  width: 44%;
+  height: 28%;
+  background-color: #ff6633;
+  transform: rotate(-48deg);
+  -webkit-transform: rotate(-48deg);
+  
+}
+#left-slide ul li.active a{
+  color: #fff;
+}
+#left-slide ul li a{
+  color:  #333;
+  font-size: 21px;
+  font-weight: 700;
+  transition: .3s;
+  -webkit-transition: .3s;
+  position: relative;
+  padding: 10px 0;
+}
+#left-slide ul li::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 50%;
+  background-color: #fff;
+  bottom: 0;
+  left: 26%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#left-slide ul li a:hover{
+  color: #fff;
+}
+
+/* media section css */
+
+#media .search{
+  margin-top: 3%;
+}
+#media .search .search-box{
+  width: 20%;
+  height: 26px;
+  background-color: #ccc;
+  border: 0;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+}
+#media .search input:focus-visible{
+  border:0;
+}
+#media .search .search-icon{
+  padding: 2px 5px 2px 2px;
+  background-color: #ccc;
+  margin-left: -5px;
+  border-left: 1px solid #333;
+  border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+}
+#media .content {
+  position: relative;
+}
+#media .content::before{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 20%;
+  width: 3px;
+  height: 50%;
+  background-color: #333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#media .content h2{
+  font-size: 27px;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 5%;
+}
+#media .content p{
+  font-weight: 700;
+  font-size: 20px;
+  padding-right: 10%;
+  letter-spacing: 1px;
+  color: #666;
+}
+#media .right-img img{
+  display: block;
+  height: auto;
+}
+#media .payment h2{
+  font-size: 27px;
+  font-weight: 700;
+  color: #333;
+}
+#media .payment .pyment_img{
+  margin-top: 20px;
+  width: 80%;
+}
+#media .payment .pyment_img  li{
+  margin-left: 10%;
+}
+
+
+/* secvice pars css */
+#service{
+  margin-top: 50px;
+}
+.secvice-content p{
+  font-size: 20px;
+  font-weight: 700;
+  color: #666;
+  margin-top: 10%;
+  
+}
+#service .img{
+  background-color: #666;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#service .img img{
+  width: 100%;
+}
+
+ .icon a{
+ padding: 5px 20%;
+ display: block;
+ color: #fff;
+}
+
+/* footer part css */
+
+#footer{
+  margin-top: 50px ;
+  padding-top: 100px;
+  /* padding-bottom: 20px; */
+  background-color: #333;
+  clip-path: polygon(0 3%, 100% 62%, 100% 100%, 0% 100%);
+}
+#footer .logo{
+  width: 60%;
+  margin-top: 100%;
+}
+#footer .product h4{
+  font-size: 23px;
+  color: #fff;
+}
+#footer .product ul {
+  margin-top: 10px;
+}
+#footer .product li a{
+font-size: 16px;
+color: #fff;
+}
