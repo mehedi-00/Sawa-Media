@@ -188,9 +188,13 @@ body {
 
 /* media section css */
 
+#payment .search,
+#service-page .search,
 #media .search{
   margin-top: 3%;
 }
+#payment .search .search-box,
+#service-page .search .search-box,
 #media .search .search-box{
   width: 20%;
   height: 26px;
@@ -203,6 +207,8 @@ body {
 #media .search input:focus-visible{
   border:0;
 }
+#payment .search .search-icon,
+#service-page .search .search-icon,
 #media .search .search-icon{
   padding: 2px 5px 2px 2px;
   background-color: #ccc;
@@ -313,4 +319,90 @@ body {
 #footer .product li a{
 font-size: 16px;
 color: #fff;
+}
+
+/* service page css  */
+
+#service-page{
+ margin-left: 12%;
+  margin-top: 50px;
+}
+
+#service-page .title{
+  font-size: 21px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin: 15px 0;
+}
+#service-page .img img{
+ width: 100%;
+ border: 2px solid #ff6633;
+ border-radius: 15px;
+}
+
+.description .price,
+#service-page .price{
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin:  5px 0;
+}
+
+/* payment page css */
+#payment .title{
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0;
+}
+#payment .img{
+  width: 90%;
+  position: relative;
+}
+#payment .img img{
+  width: 100%;
+  border: 3px solid #333;
+}
+#payment .img a{
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  color: #ff6633;
+  font-size: 20px;
+}
+#payment .paypal-btn {
+  margin: 30px 0;
+  display: inline-block;
+  padding: 10px 80px;
+  background-color: rgba(228, 225, 225, .3);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+}
+#payment .payment-btn-group{
+  padding: 10px 20px;
+  background-color: rgba(228, 225, 225, .3);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+}
+.description {
+  padding: 70px 0;
+  text-align: center;
+}
+.description h2{
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 05px;
+  color: #333;
+}
+.description p{
+  color: #666;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 30px;
+  letter-spacing: 2px;
+  margin: 50px 0;
 }
