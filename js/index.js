@@ -4,22 +4,18 @@
 $(window).on('scroll',function(){
     var  winScroll = $(window).scrollTop();
     var headerScroll = $('.main-header');
-    if(winScroll >= 150){
+    if(winScroll >= 144){
         headerScroll.addClass('menu-fixed');
+        $('#left-slide').addClass('fixed');
      }else{
          headerScroll.removeClass('menu-fixed');
+         $('#left-slide').removeClass('fixed')
      }
+     
 })
 
-// left side menu
-let menu = $('#left-slide ul li');
-menu.on('click',function(){
-   $(this).click(function(){
-       menu.removeClass('active');
-       $(this).addClass('active');
-   })
-   
-})
+
+
 
 
 }) (jQuery);
