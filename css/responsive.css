@@ -377,5 +377,18 @@
   text-align: left;
   margin-left: 25%;
 }
-  
+#sign-in ,
+#sign-up {
+  margin-left: 22%;
+}
+#sign-in .title h2 ,
+#sign-up .title h2 {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+#sign-in .form input::placeholder,
+#sign-up .form input::placeholder{
+font-size: 15px;
+}
+
 }
