@@ -411,6 +411,9 @@ color: #fff;
 #sign-up{
   margin-top: 50px;
 }
+#sign-up .card{
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+}
 #sign-in .title h2,
 #sign-up .title h2{
   font-size: 35px;
@@ -423,12 +426,13 @@ color: #fff;
 #sign-in .form input,
 #sign-up .form button,
 #sign-up .form input{
-  background-color: #ccc;
+  background-color: rgba(204, 204, 204,.3);
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   color: #333;
-  height: 40px;
+  height: 50px;
+  border: 1px solid #ff6633;
 }
 #sign-in .form input::placeholder,
 #sign-up .form input::placeholder{
