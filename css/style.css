@@ -409,7 +409,8 @@ color: #fff;
 
 /* sign-up page css start */
 #sign-up{
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 50;
 }
 #sign-up .card{
   box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
@@ -453,11 +454,13 @@ color: #fff;
 }
 #sign-in{
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 /* contact us page */
 
 #contact-us{
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 .contact-us{
   box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;

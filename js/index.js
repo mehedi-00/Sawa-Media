@@ -4,7 +4,7 @@
 $(window).on('scroll',function(){
     var  winScroll = $(window).scrollTop();
     var headerScroll = $('.main-header');
-    if(winScroll >= 144){
+    if(winScroll >= 100){
         headerScroll.addClass('menu-fixed');
         $('#left-slide').addClass('fixed');
      }else{
