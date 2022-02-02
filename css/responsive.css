@@ -26,6 +26,9 @@
   #footer {
     clip-path: polygon(0 3%, 100% 53%, 100% 100%, 0% 100%);
   }
+  #mynav ul li.vector {
+    padding: 20px 20px 0px 12px;
+  }
 
   /* service page */
   #service-page{
@@ -39,6 +42,8 @@
    
 }
 @media (min-width: 768px) and (max-width: 991px) {
+
+
   #payment .search .search-box, #service-page .search .search-box {
     width: 40%;
    }
@@ -105,6 +110,12 @@
    #footer .logo {
     width: 80%;
     margin-top: 58%;
+}
+#contact-us .right-side p {
+  font-size: 15px;
+}
+#contact-us .right-side ul li {
+  padding: 0 4%;
 }
 }
 
@@ -216,6 +227,15 @@
   padding-left: 100px;
   letter-spacing: 2px;
   margin: 32px 0;
+}
+#contact-us h2 {
+  font-size: 25px;
+}
+#contact-us .right-side p {
+  font-size: 13px;
+}
+#contact-us .right-side ul li {
+  padding: 0 2%;
 }
 }
 @media (max-width: 575px) {
@@ -390,5 +410,8 @@
 #sign-up .form input::placeholder{
 font-size: 15px;
 }
-
+#contact-us {
+  margin-top: 60px;
+  margin-left: 19%;
+}
 }

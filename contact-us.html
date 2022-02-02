@@ -21,7 +21,7 @@
     <header id="top-header">
       <nav class="navbar navbar-expand-md navbar-light py-0 main-header">
         <div class="container-fluid px-0">
-          <a class="logo" href="#">
+          <a class="logo" href="./index.html">
             <img src="./images/logo.png" alt="SAWA" />
           </a>
           <button
@@ -62,16 +62,16 @@
         
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link "   href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="./index.html"><i class="fas fa-home"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page"  href="./service.html">Service</a>
+            <a class="nav-link" data-toggle="tab"   href="./service.html"> Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link "  href="./logoDesgine.html">Logo Desgine</a>
+            <a class="nav-link" data-bs-toggle="tab" href="./logoDesgine.html">Logo Desgine</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link "  href="./busness.html">Desgine of Busness Card</a>
+            <a class="nav-link" data-bs-toggle="tab" href="./busness.html">Desgine of Busness Card</a>
           </li>
          
         </ul>
@@ -80,46 +80,56 @@
 
     <!-- header part ends -->
 
- <!-- logo paymemnt page start -->
-<!-- payment section start -->
+      <!-- contact us part start -->
 
-<section id="payment">
-   <div class="container">
-    <div class="search text-end">
-        <form action="">
-          <input type="text" class="search-box" />
-          <span class="search-icon"> <i class="fas fa-search"></i></span>
-        </form>
-      </div>
-      <div class="row justify-content-evenly">
-          <div class="col-md-5 offset-lg-1 offset-sm-2 text-center">
-              <h3 class="title text-center">Logo Design 4</h3>
-              <div class="img ">
-                  <img src="./images/service.jpg" alt="">
-                  <a href=""><i class="fas fa-shopping-cart"></i></a>
+      <section id="contact-us">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-xl-10 col-lg-9 col-sm-10 offset-sm-2  offset-md-1 contact-us">
+                     <div class="row">
+                         <div class="col-sm-8 left-side">
+                            <h2>Send us a message</h2>
+                            <form action="">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control me-3" placeholder="Name">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control me-3" placeholder="subject">
+                                </div>
+                                <div class="mb-3">
+                                   <textarea name="" class="form-control" placeholder="Write Your message"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn">sent</button>
+                                </div>
+                            </form>
+                         </div>
+                         <div class="col-sm-4 right-side">
+                             <h2>Follow us</h2>
+                            <P>Don't forget to follow us on our social media channels to get the news about our platform, its updates, and the latest market trends.</P>
+                            <ul class="d-flex   text-start">
+                                <li>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                   <a href=""> <i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                   <a href=""><i class="fab fa-instagram"></i></a> 
+                                </li>
+                                <li>
+                                   <a href=""><i class="fab fa-youtube"></i></a> 
+                                </li>
+                            </ul>
+                         </div>
+                     </div>
+                  </div>
               </div>
-             <a href="" class=" paypal-btn"><img src="./images/pament1-removebg-preview.png" alt=""></a>
-             <ul class="payment-btn-group d-flex justify-content-evenly mt-2">
-                 <li><a href="#"><img src="./images/pament3-removebg-preview.png" alt=""></a></li>
-                 <li><a href="#"><img src="./images/pament2-removebg-preview.png" alt=""></a></li>
-                 <li><a href="#"><img src="./images/pament4-removebg-preview.png" alt=""></a></li>
-             </ul>
           </div>
-          <div class="col-md-5 description text-center">
-              <h2>Discription</h2>
-              <p>Logo for engineering companies
-                and architectural offices</p>
-                <h5 class="price">$ 50</h5>
-          </div>
-      </div>
-   </div>
-</section>
+      </section>
 
-<!-- payment section ends -->
-
- <!-- logo paymemnt page ends -->
-    
-    
+      <!-- contact us part ends -->
 
 <!-- footer part start -->
 
@@ -160,8 +170,9 @@
 <!-- footer part ends -->
 
     <!-- js file link -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    
     <script src="./js/all.min.js"></script>
     <script src="./js/index.js"></script>
   </body>

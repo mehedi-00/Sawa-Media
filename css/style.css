@@ -450,3 +450,66 @@ color: #fff;
 #sign-in{
   margin-top: 100px;
 }
+/* contact us page */
+
+#contact-us{
+  margin-top: 100px;
+}
+.contact-us{
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+
+}
+#contact-us h2{
+  font-size: 35px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+#contact-us .left-side input{
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+#contact-us .left-side textarea{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#contact-us .left-side .btn{
+  padding: 7px 30px;
+  background-color: rgba(209, 201, 201, 0.88);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  color: #ff6633;
+  font-size: 20px;
+  font-weight: 700;
+}
+#contact-us .right-side p{
+  font-size: 18px;
+  color: #999;
+}
+#contact-us .right-side ul{
+margin: 20px 0;
+}
+#contact-us .right-side ul li{
+padding:0 6% ;
+
+}
+#contact-us .right-side ul li a{
+  background-color: #666;
+  display:block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
